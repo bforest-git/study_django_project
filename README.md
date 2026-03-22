@@ -1,2 +1,4 @@
-# study_jungo_project
-Study project about education
+# Географическая игра
+
+Веб-приложение для проверки знания флагов стран.
+
