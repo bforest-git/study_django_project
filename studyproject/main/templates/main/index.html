@@ -1,0 +1,47 @@
+{% extends "main/base.html" %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h1>Добро пожаловать в мое Django приложение!</h1>
+        <p class="lead">Это пример главной страницы, созданной с использованием Bootstrap 5.</p>
+        
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">О приложении</h5>
+                <p class="card-text">Это простое веб-приложение разработано на Django с использованием Bootstrap для стилизации.</p>
+                <a href="#" class="btn btn-primary">Узнать больше</a>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Функция 1</h5>
+                        <p class="card-text">Описание первой функции приложения.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Функция 2</h5>
+                        <p class="card-text">Описание второй функции приложения.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Функция 3</h5>
+                        <p class="card-text">Описание третьей функции приложения.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
